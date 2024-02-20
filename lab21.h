@@ -96,6 +96,7 @@ void Unit::newTurn(){
 	dodge_on = false;
 }
 
+
 int Unit::beAttacked(int oppatk){
 	int dmg = 0;
 	if(dodge_on == true){
